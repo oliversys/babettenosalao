@@ -19,7 +19,7 @@ import br.com.oliversys.microservices.babettenosalao.agendamentos.domain.ListaAg
 import br.com.oliversys.microservices.babettenosalao.agendamentos.repository.IAgendamentoRepository;
 
 @RestController
-@RequestMapping("/agendamento")
+@RequestMapping("/agendamentos")
 public class AgendamentosController {
 	
 	static Logger log = Logger.getLogger(AgendamentosController.class.getName());
